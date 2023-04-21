@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+    --bg1: #8ACB88;
+    --bg2: #FCFFEB;
+    --bg3: #E4FDE1;
+    margin-top: 0vh;
+}
+
+
+body {
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+}
+
+#home {
+    height: 100%;
+}
+
+.home_cop_title {
+    font-size: 13vw;
+    font-family: 'Quicksand';
+    text-align: left;
+    margin-bottom: 0vh;
+    color:#183A37;
+}
+
+.home_hps_title {
+    font-size: 3vw;
+    margin-top: 0vh;
+    font-family: 'Quicksand';
+    text-align: left;
+    color:black;
+}
+
+.COP_title {
+    font-size: 80px;
+    font-family: 'Quicksand';
+    text-align: center;  
+    padding-left: 10%;
+    padding-top: 1%;
+    position: relative;
+}
+
+.hamburger {
+    transition: 0.1s linear;
+    width: 50%;
+    margin: 0vh;
+    height: 0vh;
+    background-color: #183A37;
+}
+
+
+.home_button {
+    font-family: 'Quicksand';
+    font-size: 2.5vw;
+    text-align: center;
+    border-style: solid;
+    border-color: #183A37;
+    border-width: 0.8vh;
+    width: 100%;
+    color: #183A37;
+    height: 100%;
+    margin-top: 1%;
+    margin-left: 100%;
+    transition: 0.1s linear;
+    border-radius: 70vh;
+}
+
+.home_button_1 {
+    width: 25%;
+    font-size: 100%;
+    height: 7.5%;
+    margin-left: 10%;
+    margin-top: 5vh;
+    padding-top: 1vh;
+}
+
+.home_button_3 {
+    width: 100%;
+    height: 100%;
+    opacity: 100;
+    z-index: 5;
+    padding-top: 1vw;
+    top: 100%;
+    position: relative;
+    margin-left: 100%;
+}
+
+.home_button_3:hover {
+    cursor: pointer;
+    
+}
+
+.home_button_2 {
+    font-family: 'Quicksand';
+    font-size: 2vw;
+    text-align: center;
+    color: var(--bg2);
+    width: 50%;
+    height: 5%;
+    margin-left: 10vh;
+    padding-top: 1vh;
+    margin-top: 7vh;
+    transition: 0.1s linear;
+}
+
+.home_button_2:hover {
+    cursor: pointer;
+    font-weight: 800;
+    border-style: solid;
+    border-width: 0.8vh;
+    border-top: var(--bg2);
+    border-left: var(--bg2);
+    border-right: var(--bg2);
+}
+
+.home_button_top:hover {
+    cursor: pointer;
+    font-weight: 800;
+    border-style: solid;
+    border-width: 0.8vh;
+    border-top: var(--bg2);
+    border-left: var(--bg2);
+    border-right: var(--bg2);
+}
+
+a {
+    text-decoration: none;
+}
+
+.home_button_top {
+    font-family: 'Quicksand';
+    font-size: 2vw;
+    text-align: center;
+    color: var(--bg2);
+    width: 50%;
+    height: 5%;
+    margin-left: 10vh;
+    margin-top: 11vh;
+    transition: 0.1s linear;
+    text-decoration: none;
+
+}
+
+.home_button_3:hover ~ .home_button {
+    font-size: 35px;
+    text-align: center;
+    color: var(--bg2);
+    background-color: #183A37;
+    color: var(--bg2);
+    border-style: solid;
+    border-width: 0.8vh;
+    cursor: pointer;
+}
+
+.scl_img {
+    width: 50%;
+    height: 100%;
+    margin-top: 0vh;
+    padding-top: 0vh;
+    margin-right: 0vh;
+}
+
+.img {
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
+#menu {
+    position: static;
+    width: 0vh;
+    height: 0vh;
+    opacity: 0;
+    margin: 0vh;
+}
+
+.helli {
+    width: 0vh;
+    height: 0vh;
+    margin-left: 4vh;
+}
+
+#menu:checked ~ .helli > .burger_icon {
+    transform: rotate(90deg);
+    transition: 0.1s linear;
+    content: url(icons8-multiply-100\ copy.png);
+
+}
+
+#menu:checked + .menubar {
+opacity: 100;
+}
+
+#menu:not(:checked) ~ .helli > .burger_icon {
+    transform: rotate(0deg);
+    transition: 0.1s linear;
+    content: url(ld_menu_closed-512\ copy.png);
+}
+
+.burger_icon {
+    content: url(ld_menu_closed-512\ copy.png);
+    transition: 0.1s linear;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: 2vh;
+    z-index: 2;
+}
+
+.burger_icon:hover {
+    cursor: pointer;
+}
+
+.menubar {
+    height: 100%;
+    width: 45vh;
+    background-color: #183A37;
+    z-index: 1;
+    position: absolute;
+    transition: 0.1s linear;
+    opacity: 0;
+}
+
+.abt_img-1 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
+.abt_cop_title {
+    font-size: 6vw;
+    font-family: 'Livvic';
+    text-align: center;
+    z-index: 10;
+    margin-top: 0%;
+    position: relative;
+    padding-left: 80vh;
+    color:#183A37;
+}
+
+p {
+    font-size: 27px;
+    font-family: 'Livvic';
+    text-align: left;
+    margin-top: 0vh;
+    position: relative;
+    width: 70vh;
+    margin-bottom: 0vh;
+    padding-left: 94vh;
+    color:#183A37; 
+}
+
+h2 {
+    font-size: 2.7vw;
+    font-family: 'Livvic';
+    text-align: left;
+    margin-top: 0vh;
+    position: relative;
+    margin-bottom: 3.5vh;
+    padding-left: 94vh;
+    color:forestgreen; 
+}
+
+.abt_button_3:hover ~ .abt_button {
+    font-size: 33px;
+    text-align: center;
+    color: var(--bg2);
+    padding-top: 1.59vh;
+    background-color: #183A37;
+    border-style: solid;
+    width: 21vh;
+    text-decoration: none;
+    border-width: 0.8vh;
+    cursor: pointer;
+}
+
+.abt_button {
+    font-family: 'Quicksand';
+    font-size: 33px;
+    text-align: center;
+    border-style: solid;
+    border-color: #183A37;
+    border-width: 0.8vh;
+    color: #183A37;
+    width: 21vh;
+    height: 6vh;
+    text-decoration: none;
+    z-index: -1;
+    margin-top: 1vh;
+    padding-top: 1.59vh;
+    margin-left: 95.5vh;
+    transition: 0.1s linear;
+    border-radius: 70vh;
+}
+
+.abt_button_3 {
+    width: 20vh;
+    height: 6vh;
+    padding-top: 5vh;
+    position: absolute;
+    z-index: 5;
+    text-decoration: none;
+    opacity: 100;
+    left: 96.5vh;
+}
+
+.abt_button:hover {
+    cursor: pointer;
+}
+
+.abt_button_1 {
+    width: 20vh;
+    height: 6vh;
+    margin-top: 5vh;
+    padding-top: 1vh;
+    text-decoration: none;
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
