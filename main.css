@@ -6,10 +6,14 @@
 
 :root {
     --bg1: #8ACB88;
-    --bg2: #FCFFEB;
+    --bg2: #172E08;
     --bg3: #E4FDE1;
     margin-top: 0vh;
-    --cl: #172E08;
+    --cl: #FCFFEB;;
+    --fore: #5EDB12;
+    /*
+    cl #172E08
+    */
 }
 
 
@@ -115,7 +119,7 @@ body {
     height: 36vw;
     z-index: -11;
     margin-top: 1vw;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 40px;
     border-style: solid;
     margin-left: 53%;
@@ -142,7 +146,7 @@ body {
     text-align: center;
     height: 36vw;
     z-index: -11;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 40px;
     border-style: solid;
     margin-left: 53%;
@@ -169,7 +173,7 @@ body {
     text-align: center;
     height: 30vw;
     z-index: -11;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 40px;
     border-style: solid;
     margin-left: 60%;
@@ -197,7 +201,7 @@ body {
     text-align: center;
     height: 36vw;
     z-index: -11;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 40px;
     border-style: solid;
     margin-left: 53%;
@@ -226,7 +230,7 @@ body {
     text-align: center;
     height: 36vw;
     z-index: -11;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 40px;
     border-style: solid;
     position: absolute;
@@ -254,7 +258,7 @@ body {
     text-align: center;
     height: 30vw;
     z-index: -11;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 40px;
     border-style: solid;
     position: absolute;
@@ -283,7 +287,7 @@ body {
     text-align: center;
     height: 36vw;
     z-index: -11;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 40px;
     border-style: solid;
     position: absolute;
@@ -318,7 +322,7 @@ body {
     margin-bottom: 0vh;
     padding-right: 1vw;
     padding-top: 7.5vw;
-    color:whitesmoke;
+    color:var(--bg2);
 }
 
 .about_text_div {
@@ -361,7 +365,7 @@ body {
     margin-bottom: 0vh;
     margin-top: 0;
     padding-top: 3vw;
-    color: #5EDB12;
+    color: var(--bg2);
 }
 
 .about_cop_title_h1-z {
@@ -371,7 +375,7 @@ body {
     margin-bottom: 0vh;
     margin-top: 0;
     padding-top: 3vw;
-    color: #5EDB12;
+    color: var(--bg2);
 }
 
 .about_cop_title_h1-z-y {
@@ -381,7 +385,7 @@ body {
     margin-bottom: 0vh;
     margin-top: 0;
     padding-top: 3vw;
-    color: #5EDB12;
+    color: var(--bg2);
 }
 
 .ourplans_cop_title_h1 {
@@ -392,7 +396,7 @@ body {
     margin-top: 0vw;
     margin-bottom: 0vh;
     margin-left: 20vw;
-    color: #5EDB12;
+    color: var(--bg2);
 }
 
 .ourmission_cop_title_h1 {
@@ -403,7 +407,7 @@ body {
     margin-top: 0;
     width: 100%;
     padding-top: 4.5vw;
-    color: #5EDB12;
+    color: var(--bg2);
 }
 
 .home_hps_title_h2 {
@@ -413,7 +417,7 @@ body {
     margin-top: 0vh;
     padding-left: 1.4vw;
     width: 90%;
-    color:#5EDB12;
+    color:var(--bg2);
 }
 
 .about_about_title_h2 {
@@ -424,7 +428,7 @@ body {
     margin-top: 3vw;
     line-height: 30px;
     width: 85%;
-    color:whitesmoke;
+    color:var(--bg2);
 }
 
 .ourmission_about_title_h2 {
@@ -436,7 +440,7 @@ body {
     margin-top: 3vw;
     line-height: 27px;
     width: 85%;
-    color:whitesmoke;
+    color:var(--bg2);
 }
 
 .ourmission_about_title_h2-l {
@@ -446,7 +450,7 @@ body {
     margin-top: 0vh;
     line-height: 27px;
     width: 85%;
-    color:whitesmoke;
+    color:var(--bg2);
 }
 
 .about_about_subtitle_h2 {
@@ -455,7 +459,7 @@ body {
     text-align: left;
     margin-top: 0vh;
     width: 80%;
-    color: aliceblue;
+    color: var(--bg2);
 }
 
 .about_about_subtitle_h2-ll {
@@ -465,7 +469,7 @@ body {
     margin-top: 0vh;
     width: 80%;
     margin-bottom: 3vw;
-    color: aliceblue;
+    color: var(--bg2);
 }
 
 .ourplans_about_subtitle_h2 {
@@ -475,7 +479,7 @@ body {
     margin-top: 0vh;
     width: 80%;
     margin-left: 33%;
-    color: aliceblue;
+    color: var(--bg2);
 }
 
 .ourmission_about_subtitle_h2 {
@@ -484,7 +488,7 @@ body {
     text-align: center;
     margin-top: 0vh;
     width: 80%;
-    color: aliceblue;
+    color: var(--bg2);
 }
 
 .home_signup_button_h3 {
@@ -495,16 +499,16 @@ body {
     width: 30%;
     padding-top: 0.7vw;
     padding-bottom: 0.7vw;
-    border-color: whitesmoke;
+    border-color: var(--bg2);
     border-radius: 30px;
     margin-left: 13.6vw;
     border-width: 3px;
     border-style: solid;
-    color:whitesmoke;
+    color:var(--bg2);
 }
 
 .home_signup_button_h3:hover {
-    background-color: whitesmoke;
+    background-color: var(--bg2);
     color: var(--cl);
     transition: 0.2s linear;
     cursor: pointer;
@@ -518,17 +522,17 @@ body {
     width: 15vw;
     padding-top: 0.7vw;
     padding-bottom: 0.7vw;
-    border-color: whitesmoke;
+    border-color: var(--bg2);
     border-radius: 30px;
     margin-left: 10vw;
     border-width: 3px;
     position: relative;
     border-style: solid;
-    color:whitesmoke;
+    color:var(--bg2);
 }
 
 .about_learnmore_button_h3:hover {
-    background-color: whitesmoke;
+    background-color: var(--bg2);
     color: var(--cl);
     transition: 0.2s linear;
     cursor: pointer;
@@ -542,16 +546,16 @@ body {
     width: 42%;
     padding-top: 0.7vw;
     padding-bottom: 0.7vw;
-    border-color: whitesmoke;
+    border-color: var(--bg2);
     border-radius: 30px;
     margin-left: 13.6vw;
     border-width: 3px;
     border-style: solid;
-    color:whitesmoke;
+    color:var(--bg2);
 }
 
 .ourmission_learnmore_button_h3:hover {
-    background-color: whitesmoke;
+    background-color: var(--bg2);
     color: var(--cl);
     transition: 0.2s linear;
     cursor: pointer;
@@ -633,7 +637,7 @@ a {
 #menu:checked ~ .helli > .burger_icon {
     transform: rotate(90deg);
     transition: 0.1s linear;
-    content: url(icons8-multiply-100\ copy.png);
+    content: url(icons8-multiply-100\ copy\ 2.png);
 
 }
 
@@ -677,7 +681,7 @@ opacity: 100;
     border-radius: 50%;
     margin-left: 50%;
     margin-bottom: 25vw;
-    background-color: #5EDB12;
+    background-color: var(--bg2);
     position: absolute;
 }
 
@@ -686,7 +690,7 @@ opacity: 100;
     width: 4vw;
     height: 4vw;
     border-radius: 50%;
-    background-color: #5EDB12;
+    background-color: var(--bg2);
     margin-left: 91%;
     z-index: -10;
     margin-top: 38vw;
@@ -699,7 +703,7 @@ opacity: 100;
     border-radius: 50%;
     margin-left: 52%;
     margin-bottom: 27vw;
-    background-color: #5EDB12;
+    background-color: var(--bg2);
     position: absolute;
 }
 
@@ -708,7 +712,7 @@ opacity: 100;
     width: 4vw;
     height: 4vw;
     border-radius: 50%;
-    background-color: #5EDB12;
+    background-color: var(--bg2);
     margin-left: 91%;
     z-index: -10;
     margin-top: 36vw;
@@ -721,7 +725,7 @@ opacity: 100;
     border-radius: 50%;
     margin-left: 90%;
     margin-bottom: 27vw;
-    background-color: #5EDB12;
+    background-color: var(--bg2);
     position: absolute;
 }
 
@@ -730,7 +734,7 @@ opacity: 100;
     width: 5vw;
     height: 5vw;
     border-radius: 50%;
-    background-color: #5EDB12;
+    background-color: var(--bg2);
     margin-left: 60%;
     z-index: -10;
     margin-top: 34vw;
@@ -743,7 +747,7 @@ opacity: 100;
     margin-top: 7.5vw;
     border-radius: 50%;
     margin-left: 6%;
-    background-color: #5EDB12;
+    background-color: var(--bg2);
     margin-bottom: 25vw;
     position: absolute;
 }
@@ -753,7 +757,7 @@ opacity: 100;
     width: 6vw;
     height: 6vw;
     border-radius: 50%;
-    background-color: #5EDB12;
+    background-color: var(--bg2);
     margin-left: 41%;
     z-index: -10;
     margin-top: 44vw;
@@ -766,7 +770,7 @@ opacity: 100;
     margin-left: 5vw;
     border-radius: 50%;
     margin-bottom: 0vw;
-    background-color: #5EDB12;
+    background-color: var(--bg2);
     margin-top: 2vw;
     position: absolute;
     z-index: 1000;
@@ -777,7 +781,7 @@ opacity: 100;
     width: 6vw;
     height: 6vw;
     border-radius: 50%;
-    background-color: #5EDB12;
+    background-color: var(--bg2);
     z-index: -10;
     margin-top: 31vw;
     margin-left: 33%;
@@ -797,7 +801,7 @@ opacity: 100;
 
 .ourplans_flex_h1 {
     font-size: 6vw;
-    color: aliceblue;
+    color: var(--bg2);
     text-align: center;
     margin-top: 1vw;
     font-family: "Open Sans";
@@ -808,7 +812,7 @@ opacity: 100;
 
 .ourplans_flex_h2 {
     font-size: 1.25vw;
-    color: aliceblue;
+    color: var(--bg2);
     text-align: center;
     font-family: "Open Sans";
     padding-left: 1vw;
@@ -832,7 +836,7 @@ opacity: 100;
     height: 17vw;
     z-index: -11;
     position: absolute;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 15px;
     border-style: solid;
     position: relative;
@@ -858,7 +862,7 @@ opacity: 100;
     text-align: center;
     height: 17vw;
     z-index: -11;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 15px;
     position: absolute;
     margin-left: 10vw;
@@ -882,7 +886,7 @@ opacity: 100;
 
 .eaglets_h1 {
     font-size: 5vw;
-    color: #5EDB12;
+    color: var(--bg2);
     font-family: 'Open Sans';
     text-align: center;
     margin-left: 2vw;
@@ -902,7 +906,7 @@ opacity: 100;
     position: absolute;
     z-index: -11;
     margin-left: 10vw;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 15px;
     border-style: solid;
     position: relative;
@@ -937,7 +941,7 @@ opacity: 100;
     height: 20vw;
     z-index: -11;
     position: absolute;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 15px;
     margin-left: 3vw;
     border-style: solid;
@@ -961,7 +965,7 @@ opacity: 100;
 .rep_h1 {
     font-size: 3vw;
     font-family: 'Livvic';
-    color: aliceblue;
+    color: var(--bg2);
     text-align: center;
     margin-bottom: 1vw;
     margin-left: 8vw;
@@ -970,7 +974,7 @@ opacity: 100;
 .rep_h2 {
     font-size: 1.7vw;
     font-family: 'Livvic';
-    color: aliceblue;
+    color: var(--bg2);
     margin-top: 0vw;
     text-align: center;
     margin-left: 8vw;
@@ -979,7 +983,7 @@ opacity: 100;
 .rep_h1-1 {
     font-size: 3vw;
     font-family: 'Livvic';
-    color: aliceblue;
+    color: var(--bg2);
     text-align: center;
     margin-bottom: 1vw;
 }
@@ -987,7 +991,7 @@ opacity: 100;
 .rep_h2-1 {
     font-size: 1.7vw;
     font-family: 'Livvic';
-    color: aliceblue;
+    color: var(--bg2);
     margin-top: 0vw;
     text-align: center;
 }
@@ -1000,7 +1004,7 @@ opacity: 100;
     margin-top: 1.5vw;
     line-height: 27px;
     width: 85%;
-    color:whitesmoke;
+    color:var(--bg2);
 }
 
 .contact_image_div {
@@ -1010,7 +1014,7 @@ opacity: 100;
     height: 28vw;
     margin-top: 4vw;
     z-index: -11;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 30px;
     border-style: solid;
     margin-left: 3%;
@@ -1039,7 +1043,7 @@ opacity: 100;
     margin-top: 0vh;
     width: 80%;
     position: absolute;
-    color: aliceblue;
+    color: var(--bg2);
 }
 
 .contact-flex {
@@ -1061,7 +1065,7 @@ opacity: 100;
     font-size: 2.5vw;
     font-family: 'Livvic';
     text-align: center;
-    color: aliceblue;
+    color: var(--bg2);
     margin-left: 1.5vw;
     margin-top: 1.58vw;
 }
@@ -1085,7 +1089,7 @@ opacity: 100;
     font-size: 2vw;
     font-family: 'Livvic';
     text-align: left;
-    color: aliceblue;
+    color: var(--bg2);
     margin-left: 1.5vw;
     margin-top: 1vw;
 }
@@ -1097,18 +1101,18 @@ opacity: 100;
     width: 15%;
     padding-top: 0.7vw;
     padding-bottom: 0.7vw;
-    border-color: whitesmoke;
+    border-color: var(--bg2);
     border-radius: 30px;
     margin-left: 51vw;
     margin-top: 31vw;
     border-width: 3px;
     border-style: solid;
     position: absolute;
-    color:whitesmoke;
+    color:var(--bg2);
 }
 
 .contact_button_h3:hover {
-    background-color: whitesmoke;
+    background-color: var(--bg2);
     color: var(--cl);
     transition: 0.2s linear;
     cursor: pointer;
@@ -1121,18 +1125,18 @@ opacity: 100;
     width: 18%;
     padding-top: 0.7vw;
     padding-bottom: 0.7vw;
-    border-color: whitesmoke;
+    border-color: var(--bg2);
     border-radius: 30px;
     margin-left: 72vw;
     margin-top: 31vw;
     border-width: 3px;
     border-style: solid;
     position: absolute;
-    color:whitesmoke;
+    color:var(--bg2);
 }
 
 .contact_button_h3-1:hover {
-    background-color: whitesmoke;
+    background-color: var(--bg2);
     color: var(--cl);
     transition: 0.2s linear;
     cursor: pointer;
@@ -1154,7 +1158,7 @@ footer {
     width: 17vw;
     margin-left: 3vw;
     position: absolute;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     border-width: 0.5vw;
     border-style: solid;
     height: 14vw;
@@ -1167,7 +1171,7 @@ footer {
     border-style: solid;
     margin-left: 78.5vw;
     border-width: 0.5vw;
-    border-color: #5EDB12;
+    border-color: var(--bg2);
     height: 14vw;
 }
 
